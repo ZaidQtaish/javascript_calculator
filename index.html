@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Javascript Calculator</title>
+</head>
+<body>
+    <div id='calculator'>
+        <div id='top'>
+          <input type='checkbox' id='switch' />
+          <label for='switch'></label>
+        </div>
+        <div id='main'>
+          <i class="fa-solid fa-equals" id='equal'></i>
+          <div id='display'>
+            <div id='formula'></div>
+            <div id='output'></div>
+          </div>
+        </div>
+        <div id='controls'>
+          <div id='container'>
+            <button class='bt' id='ac'>AC</button>
+            <div id="number-buttons">
+              <button class='bt' id='1'>1</button>
+              <button class='bt' id='2'>2</button>
+              <button class='bt' id='3'>3</button>
+              <button class='bt' id='4'>4</button>
+              <button class='bt' id='5'>5</button>
+              <button class='bt' id='6'>6</button>
+              <button class='bt' id='7'>7</button>
+              <button class='bt' id='8'>8</button>
+              <button class='bt' id='9'>9</button>
+              <button class='bt' id='.'>.</button>
+              <button class='bt' id='0'>0</button>
+              <button class='bt' id='00'>00</button>
+            </div>
+          </div>
+          <div id="operators" class ="bt">
+            <button class='bt operatorButtons'>÷</button>
+            <button class='bt operatorButtons'>x</button>
+            <button class='bt operatorButtons'>-</button>
+            <button class='bt operatorButtons'>+</button>
+            <button class='bt' id='equals'>=</button>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
